@@ -1,0 +1,58 @@
+/* Header.css - Styles a header section of a webpage, including a navigation menu and and theme toggle bottom */
+
+/* Header styles */  
+header {  
+    /* Enables flexbox layout for header */  
+    display: flex; 
+    /* Space between child elements */ 
+    justify-content: space-between;  
+    /* Center items vertically */  
+    align-items: center; 
+    /* Padding around the header */  
+    padding: 10px 20px; 
+    /* Sets background color using a CSS variable */ 
+    background-color: var(--background-color);  
+    /* Adds a bottom border using a CSS variable */ 
+    border-bottom: 1px solid var(--text-color);  
+  }  
+  
+  /* Navigation styles */  
+  nav ul {  
+    /* Removes default list styling */  
+    list-style: none; 
+    /* No padding for ul */  
+    padding: 0; 
+    /* No margin for ul */  
+    margin: 0; 
+    /* Layout list items in a row */ 
+    display: flex;  
+  }  
+  
+  nav ul li {  
+    /* Adds horizontal space between list items */  
+    margin: 0 15px; 
+  }  
+  
+  /* Theme toggle button styles */  
+  .theme-toggle {  
+    /* No background color */  
+    background: none; 
+    /* Border color using a CSS variable */  
+    border: 2px solid var(--text-color); 
+    /* Text color using a CSS variable */
+    color: var(--text-color);   
+    /* Padding for button */  
+    padding: 5px 10px; 
+    /* Rounded corners */  
+    border-radius: 5px; 
+    /* Font size */  
+    font-size: 14px; 
+    /* Smooth transition effects */  
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }  
+  
+  /* Hover effects for theme toggle button */  
+  .theme-toggle:hover {  
+    /* Light background on hover */  
+    background-color: rgba(255, 255, 255, 0.2); 
+  }

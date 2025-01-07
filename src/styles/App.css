@@ -1,0 +1,58 @@
+/* App.css - Establishes a global style foundation with resets and defaults for a webpage */
+
+/* Global resets and defaults */  
+body {  
+    /* Remove default margin to avoid spacing issues */  
+    margin: 0; 
+    /* Set the default font for the document */ 
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    /* Use a CSS variable for background color */ 
+    background-color: var(--background-color);  
+    /* Use a CSS variable for text color */
+    color: var(--text-color);   
+    /* Smooth transition for background and text color changes */  
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }  
+  
+  /* Light mode styles */  
+  .App.light-mode {  
+    /* White background for light mode */ 
+    --background-color: #ffffff;  
+    /* Black text for light mode */  
+    --text-color: #000000; 
+  }  
+  
+  /* Dark mode styles */  
+  .App.dark-mode {  
+    /* Dark background for dark mode */  
+    --background-color: #121212; 
+    /* White text for dark mode */  
+    --text-color: #ffffff; 
+  }  
+  
+  /* Link styles */  
+  a {  
+    /* Link color follows text color variable */  
+    color: var(--text-color); 
+    /* Remove underline from links by default */  
+    text-decoration: none; 
+  }  
+  
+  a:hover {  
+    /* Underline link on hover for better visibility */  
+    text-decoration: underline; 
+  }  
+  
+  /* Section styles */  
+  section {  
+    /* Add padding for spacing inside sections */  
+    padding: 40px 20px; 
+    /* Center text within sections */  
+    text-align: center; 
+  }  
+  
+  /* Button styles */  
+  button {  
+    /* Change cursor to pointer to indicate clickable button */
+    cursor: pointer;   
+  }

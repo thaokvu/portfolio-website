@@ -1,0 +1,120 @@
+/* Styling for the contact section */  
+#contact {  
+    /* Adds space inside the contact section */  
+    padding: 20px; 
+    /* Light gray background color */  
+    background-color: #f9f9f9; 
+    /* Rounded corners for the section */  
+    border-radius: 8px; 
+    /* Subtle shadow effect */  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    /* Sets a maximum width for the section */  
+    max-width: 600px; 
+    /* Centers the section with vertical space */  
+    margin: 20px auto; 
+  }  
+  
+  h2 {  
+    /* Centers the heading text */  
+    text-align: center; 
+    /* Space below the heading */  
+    margin-bottom: 20px; 
+  }  
+  
+  form {  
+    /* Enables flexible layout */ 
+    display: flex;  
+    /* Stacks form elements vertically */  
+    flex-direction: column; 
+    /* Space between form elements */  
+    gap: 15px; 
+  }  
+  
+  input, textarea { 
+    /* Inner padding for input fields */   
+    padding: 10px; 
+    /* Standard font size */  
+    font-size: 1rem; 
+    /* Light gray border */  
+    border: 1px solid #ddd; 
+    /* Rounded corners for input fields */  
+    border-radius: 5px; 
+  }  
+  
+  button {  
+    /* Padding for the button */  
+    padding: 10px 15px; 
+    /* Standard font size */  
+    font-size: 1rem; 
+    /* No border */  
+    border: none; 
+    /* LinkedIn blue color for button */  
+    background-color: #0077b5; 
+    /* White text color */  
+    color: white; 
+    /* Rounded corners for the button */  
+    border-radius: 5px; 
+    /* Pointer cursor on hover */ 
+    cursor: pointer;  
+  }  
+  
+  button:hover {  
+    /* Darker blue when hovered */  
+    background-color: #005582; 
+  }  
+  
+  /* Styling for the contact links section */  
+  .contact-links {  
+    /* Space above the contact links section */  
+    margin-top: 30px; 
+    /* Centers the text */  
+    text-align: center; 
+  }  
+  
+  .contact-links p {  
+    /* Larger font size for paragraphs */  
+    font-size: 1.2rem; 
+    /* Space below paragraphs */  
+    margin-bottom: 10px; 
+  }  
+  
+  .contact-links ul {  
+    /* Removes bullet points from the list */  
+    list-style-type: none; 
+    /* Removes padding */  
+    padding: 0; 
+  }  
+  
+  .contact-links li {  
+    /* Space around list items */  
+    margin: 10px 0; 
+    /* Flex layout for list items */  
+    display: flex; 
+    /* Centers items vertically */ 
+    align-items: center;  
+    /* Centers items horizontally */  
+    justify-content: center; 
+  }  
+  
+  .contact-links a {  
+    /* Removes underline from links */  
+    text-decoration: none; 
+    /* Dark gray color for text */  
+    color: #333; 
+    /* Flex layout for links */ 
+    display: flex;  
+    /* Centers icon and text */  
+    align-items: center; 
+    /* Larger font size for links */  
+    font-size: 1.2rem; 
+  }  
+  
+  .contact-links a:hover {  
+    /* Change text color on hover */  
+    color: #0077b5; 
+  }  
+  
+  .contact-links a svg {  
+    /* Space between icon and text */ 
+    margin-right: 10px;  
+  }

@@ -1,0 +1,37 @@
+/* Skills.css - Defines styles for a skills section on a webpage using Flexbox layout
+
+/* Container for the skills section */  
+#skills {  
+    /* Enable flexbox layout */  
+    display: flex;             
+    /* Stack items vertically */       
+    flex-direction: column;  
+    /* Center items horizontally */      
+    align-items: center;            
+  }  
+  
+  /* Container for the individual skill icons */  
+  .skills-container { 
+    /* Enable flexbox layout */  
+    display: flex; 
+    /* Center child items horizontally */                   
+    justify-content: center;     
+    /* Space between skill icons */      
+    gap: 20px;             
+    /* Allow items to wrap onto multiple lines */         
+    flex-wrap: wrap;                
+  }  
+  
+  /* Style for each skill icon */  
+  .icon {  
+    /* Set the size of the icon */ 
+    font-size: 40px;                
+    /* Smooth transition effect on hover */  
+    transition: transform 0.2s ease-in-out; 
+  }  
+  
+  /* Hover effect for each skill icon */  
+  .icon:hover {  
+    /* Slightly enlarge the icon when hovered */  
+    transform: scale(1.1);         
+  }

@@ -1,0 +1,30 @@
+/* Components.css - Styles a footer section of a webpage, providing padding, a center text alignment, and a background color */
+
+/* Style for the footer section */  
+footer {  
+    /* Adds padding around the footer content */ 
+    padding: 20px;  
+    /* Centers the text and content within the footer */
+    text-align: center;   
+    /* Sets the background color using a CSS variable */ 
+    background-color: var(--background-color);  
+    /* Creates a top border with a solid line in the color specified by a CSS variable */  
+    border-top: 1px solid var(--text-color); 
+  }  
+  
+  /* Style for icons within the footer */  
+  footer .icon {  
+    /* Sets the font size for icons */  
+    font-size: 24px; 
+    margin: 0 10px;  
+    /* Enables smooth transition effects for color and transform properties */  
+    transition: color 0.3s ease, transform 0.2s ease; 
+  }  
+  
+  /* Hover effect for icons in the footer */  
+  footer .icon:hover {  
+    /* Scales up the icon slightly on hover */
+    transform: scale(1.2); 
+    /* Changes the icon color to a specific blue on hover */    
+    color: #00ffee94; 
+  }

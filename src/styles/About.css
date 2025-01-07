@@ -1,0 +1,69 @@
+/* About.css - Creates a responsive layout for profile information */
+
+/* Styles for the #about section */  
+#about {  
+    /* Use flexbox layout */
+    display: flex;   
+    /* Allow flex items to wrap onto multiple lines */ 
+    flex-wrap: wrap;  
+    /* Center flex items horizontally */  
+    justify-content: center; 
+    /* Center flex items vertically */  
+    align-items: center; 
+    /* Space between flex items */  
+    gap: 20px; 
+  }  
+  
+  /* Styles for the profile photo */  
+  .profile-photo {  
+    /* Set width to 150px */ 
+    width: 150px;  
+    /* Set height to 150px */  
+    height: 150px; 
+    /* Make the photo circular */
+    border-radius: 50%;   
+    /* Ensure the image covers the area without distortion */ 
+    object-fit: cover;  
+    /* Add a border with a variable color */
+    border: 3px solid var(--text-color);   
+    /* Add a subtle shadow */ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+  }  
+  
+  /* Styles for the text about the profile */  
+  .about-text {  
+    /* Set a maximum width for readability */  
+    max-width: 600px; 
+    /* Align text to the left */  
+    text-align: left; 
+  }  
+  
+  /* Styles for the resume link button */  
+  .resume-link {  
+    /* Make the link behave like a block item that can be padded */  
+    display: inline-block; 
+    /* Add margin above the link */ 
+    margin-top: 15px;  
+    /* Add padding around the link */  
+    padding: 10px 15px; 
+    /* Set the background color */  
+    background-color: #00ffee94; 
+    /* Set text color to white */  
+    color: white; 
+    /* Remove underline from the link */  
+    text-decoration: none; 
+    /* Round corners of the button */ 
+    border-radius: 5px;
+    /* Set font size */    
+    font-size: 16px; 
+    /* Make the text bold */ 
+    font-weight: bold;  
+    /* Smooth transition for background color on hover */  
+    transition: background-color 0.3s ease; 
+  }  
+  
+  /* Styles for the resume link on hover */  
+  .resume-link:hover {  
+    /* Change background color when hovered */
+    background-color: #00ffee94;   
+  }
